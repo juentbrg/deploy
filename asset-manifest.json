@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/deploy/static/css/main.37b4939f.css",
+    "main.js": "/deploy/static/js/main.9cb7a302.js",
+    "static/media/Ohmyfood.jpg": "/deploy/static/media/Ohmyfood.450d5035481f20e8ea65.jpg",
+    "static/media/724.jpg": "/deploy/static/media/724.5c9230ebe64d0299b22a.jpg",
+    "static/media/ninacarducci.jpg": "/deploy/static/media/ninacarducci.ff486cf47d7b3a19825b.jpg",
+    "static/media/portfolio-architecte.jpg": "/deploy/static/media/portfolio-architecte.a1583f214d52ec722c8d.jpg",
+    "static/media/todolistVue.jpg": "/deploy/static/media/todolistVue.fc45f21217dcb93ade4a.jpg",
+    "static/media/printit.jpg": "/deploy/static/media/printit.6508a7934b9f34189bc3.jpg",
+    "static/media/kasa.jpg": "/deploy/static/media/kasa.55a578fcd62527968a27.jpg",
+    "static/media/booki.jpg": "/deploy/static/media/booki.ddb901c94562fb71fa97.jpg",
+    "static/media/argentbank.jpg": "/deploy/static/media/argentbank.d5e0144fcc25d52a9beb.jpg",
+    "static/media/pic.webp": "/deploy/static/media/pic.7dc69e8e80b6beed6683.webp",
+    "static/media/react-redux.webp": "/deploy/static/media/react-redux.74d2b6db8ae631735189.webp",
+    "static/media/sass.webp": "/deploy/static/media/sass.892ad285ef5e4332dbfa.webp",
+    "static/media/react.webp": "/deploy/static/media/react.c829720064b03017e73b.webp",
+    "static/media/css.webp": "/deploy/static/media/css.9be2d7dab6ca0381d9e5.webp",
+    "static/media/html.webp": "/deploy/static/media/html.39df1cb28f01db148c23.webp",
+    "static/media/js.webp": "/deploy/static/media/js.3fdd7dbeba77ed70cb15.webp",
+    "static/media/vue.webp": "/deploy/static/media/vue.fb286e772fd2f8298aa4.webp",
+    "static/media/typescript.webp": "/deploy/static/media/typescript.1b737ba78c99644c9851.webp",
+    "static/media/logo192.svg": "/deploy/static/media/logo192.1bb866a8620db3ec69ccfd24471ab2cc.svg",
+    "index.html": "/deploy/index.html",
+    "static/media/logo192.webp": "/deploy/static/media/logo192.606c8c7b7f3b8ad50385.webp",
+    "main.37b4939f.css.map": "/deploy/static/css/main.37b4939f.css.map",
+    "main.9cb7a302.js.map": "/deploy/static/js/main.9cb7a302.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37b4939f.css",
+    "static/js/main.9cb7a302.js"
+  ]
+}
