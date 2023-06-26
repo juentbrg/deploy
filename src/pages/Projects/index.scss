@@ -1,0 +1,158 @@
+@import "../../index.scss";
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  &__image-container {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 550px;
+  }
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid $dark;
+    background: linear-gradient(
+      180deg,
+      lighten($color: $dark-background, $amount: 3),
+      lighten($color: $dark-background, $amount: 6)
+    );
+    margin-top: 500px;
+    padding: 40px;
+    position: relative;
+    opacity: 0;
+    animation: toTop 0.8s ease-in-out forwards;
+  }
+  &__nav {
+    display: flex;
+    justify-content: center;
+  }
+  &__arrow-link {
+    position: absolute;
+    top: 48px;
+    left: 50px;
+  }
+  &__arrow {
+    color: $links-inactive;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      color: $white;
+    }
+  }
+  &__title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  &__content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &__container {
+    display: flex;
+    box-shadow: rgba(15, 15, 15, 0.6) 0px 2px 8px 0px;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  &__tech {
+    text-align: center;
+    flex-direction: column;
+    width: 20%;
+    gap: 20px;
+  }
+  &__description {
+    flex-direction: column;
+    width: 75%;
+  }
+  &__tech-title,
+  &__description-title {
+    color: lighten($color: $links-inactive, $amount: 10);
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  &__techImage-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__techImage-container {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  &__techImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .projects {
+    &__image-container {
+      height: 420px;
+    }
+    &__content {
+      width: 90%;
+      margin: auto;
+      margin-top: 390px;
+    }
+  }
+}
+
+@media all and (max-width: 650px) {
+  .projects {
+    &__image-container {
+      height: 320px;
+    }
+    &__content {
+      margin-top: 290px;
+    }
+    &__content-wrapper {
+      flex-direction: column;
+    }
+    &__tech {
+      width: 100%;
+    }
+    &__description {
+      width: 100%;
+    }
+    &__techImage-container {
+      margin-bottom: 0;
+    }
+    &__arrow-link {
+      top: 45px;
+      left: 25px;
+    }
+    &__arrow {
+      font-size: 24px;
+    }
+    &__title {
+      font-size: 22px;
+    }
+    &__description-title {
+      text-align: center;
+    }
+    &__tech-title,
+    &__description-title {
+      font-size: 18px;
+    }
+    &__description {
+      font-size: 15px;
+    }
+  }
+}
